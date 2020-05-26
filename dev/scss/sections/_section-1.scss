@@ -1,0 +1,44 @@
+/* =============
+    Section 1
+============= */
+#section-1{
+  
+        background-image: url('../img/section-1/hero.png'); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat ;
+        height: 234px;
+
+        @include md{
+            height: 440px ;
+       }
+    
+       @include xl{
+           height: 590px ;
+       }
+       
+
+
+    #section-1-content{
+
+        #section-1-header{
+            text-align: center;
+            color: $pink;
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+    }
+
+
+}
